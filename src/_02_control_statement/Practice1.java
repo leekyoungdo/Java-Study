@@ -20,18 +20,27 @@ public class Practice1 {
 //            System.out.println("성인");
 //        }
 
-        System.out.println("이름을 입력해주세요. >>");
-        Scanner scanner = new Scanner(System.in);
-        String name = scanner.next();
+//        System.out.println("이름을 입력해주세요. >>");
+//        Scanner scanner = new Scanner(System.in);
+//        String name = scanner.next();
+//
+//        if (name . equals("홍길동") ) {
+//            System.out.println("남자");
+//        } else if (name .equals("성춘향")) {
+//            System.out.println("여자");
+//        } else {
+//            System.out.println("모르겠어요");
+//        }
 
-        if (name . equals("홍길동") ) {
-            System.out.println("남자");
-        } else if (name .equals("성춘향")) {
-            System.out.println("여자");
-        } else {
-            System.out.println("모르겠어요");
-        }
+                Scanner sc = new Scanner(System.in);
+                System.out.println("숫자를 입력하세요");
 
+                int n = sc.nextInt();
 
+                for (int i = 1; i <= n; i++) {
+                    System.out.print(i + " ");
+                }
+
+                sc.close();
     }
 }
