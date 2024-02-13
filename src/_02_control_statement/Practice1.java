@@ -10,7 +10,7 @@ public class Practice1 {
 //
 //        if (1 <= age && age <= 7) {
 //            System.out.println("유아");
-//        } else if (8 <= age && age <= 13 ) {
+//        } else if (8 <= age && age <= 13 )
 //            System.out.println("초등학생");
 //        } else if (14 <= age && age <= 16) {
 //            System.out.println("중학생");
